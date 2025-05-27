@@ -23,8 +23,7 @@ const iconMap = {
     Settings,
 }
 
-
-function SideBar() {
+function SideMenu() {
     return (
         <aside className="w-64 bg-white border-r border-gray-200 h-screen flex flex-col">
             <div className="p-6">
@@ -53,4 +52,7 @@ function SideBar() {
     )
 }
 
-export default SideBar
+export default SideMenu
+
+
+

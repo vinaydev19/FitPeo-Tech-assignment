@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Header from "./components/Header"
 import './App.css'
 import DashboardMainContent from './components/DashboardMainContent'
-import SideBar from './components/sidebar'
+import SideMenu from "./components/SideMenu"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Header />
       <div className="flex">
-        <SideBar />
+        <SideMenu />
         <DashboardMainContent />
       </div>
     </div>
