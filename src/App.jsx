@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from "./components/Header"
 import './App.css'
-import SideBar from './components/sidebar'
 import DashboardMainContent from './components/DashboardMainContent'
+import SideBar from './components/sidebar'
 
 function App() {
   const [count, setCount] = useState(0)
